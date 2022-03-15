@@ -1,0 +1,158 @@
+*{
+   margin: 0;
+    padding: 0;
+}
+
+.box{
+    display: flex;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 100px 380px;
+}
+
+.box-item1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:500px ;
+    height:500px ;
+    background-color: cadetblue;
+    border-radius: 15px 0 0 15px;
+    border-right: 2px dotted rgb(58, 14, 14);
+    transition: ease-in 1.5s;
+}
+
+.box-item2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(39, 42, 58);
+    width:500px ;
+    height:500px ;
+    border-radius: 0 15px 15px 0;
+    transition: ease-in 1s;
+   
+}
+
+.item{
+    justify-content:center  ;
+    width: 150px;
+    height: 200px;
+    background-image: url(../img/galaxy\ s21.jpg);
+    background-size: cover;
+    margin: 30px 180px;
+}
+
+h1{
+    position: relative;
+    left: 90px;
+}
+
+p{ position: relative;
+   width: 400px; 
+   left: 50px;
+   top: 20px;
+   color: aliceblue;
+}
+
+h2{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: darkkhaki;
+}
+
+ .box-item1:hover h2{
+    color: blue;
+}
+
+.item2{
+    width: 300px;
+    height: 70px;
+        background-color: rgb(73, 233, 140);
+        border-radius: 40px 0 40px 0;  
+        margin: 90px auto 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 800;
+       text-align: center;
+       
+}
+
+.item2:hover{
+    background-color: rgb(43, 199, 108);
+}
+
+.item2:active{
+    box-shadow: 0 0 10px black;
+}
+
+.item3{
+    width: 300px;
+    height: 70px;
+        background-color: rgb(73, 233, 140);
+        border-radius: 40px 0 40px 0;  
+        margin: 30px auto 0;
+        font-size: 25px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.item3:hover{
+    background-color: rgb(43, 199, 108);
+}
+
+.item3:active{
+    box-shadow: 0 0 10px black;
+}
+   
+    
+
+
+    .item4{
+        width: 300px;
+        height: 70px;
+        background-color: rgb(73, 233, 140);
+        border-radius: 40px 0 40px 0;  
+          margin: 30px auto 0;
+          font-size: 25px;
+          font-weight: 800;
+          display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+
+    .item4:hover{
+        background-color: rgb(43, 199, 108);
+    }
+    
+    .item4:active{
+        box-shadow: 0 0 10px black;
+    }
+
+
+    .item5{
+        width: 400px;
+        position: relative;
+        color: floralwhite;
+        font-size: 22px;
+        margin: 60px 110px 0;
+        font-weight: 800;
+    }
+
+    .box-item1:hover{
+        background-color: rgb(73, 207, 102);
+
+    }
+        
+    .box-item2:hover{
+        background-color: cadetblue;
+    }
